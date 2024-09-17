@@ -1,3 +1,28 @@
-@import url(./header.css);
-@import url(./section.css);
-@import url(./footer.css);
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#imagem-circular {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagem-circular img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; 
+}
