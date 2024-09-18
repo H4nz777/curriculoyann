@@ -3,26 +3,84 @@ body{
     width: 100vw;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
+    font-family: 'oswald', sans-serif;
+    background-color:#212b2b;
+
+}
+
+h1, h2, h3 {
+    font-family: 'oswald', sans-serif;
+    color:#C0C0C0;
 }
 
 header{
     display: flex;
     justify-content: space-between;
+    background-color:black;
+    height: 90px;
 }
 
+
 #imagem-circular {
+    width: 150px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#imagem-circular img {
+    width: 60%;
+    height: 80px;
+    border-radius: 50%; 
+}
+
+#logo_name
+{
+    display:flex;
+}
+.btn {
+    border-radius: 10%;
+    background-color: #4169E1;
+    color:aliceblue
+}
+
+section{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:flex-start;
+    height: auto;
+    text-align:center;
+    color:aqua;
+}
+
+#imagem-circular2 {
     width: 150px;
     height: 150px;
     overflow: hidden;
     border-radius: 50%;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 }
 
-#imagem-circular img {
+#imagem-circular2 img {
     width: 100%;
     height: auto;
     border-radius: 50%; 
+}
+
+footer {
+    display:flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content:flex-start;
+    padding:20px;
+    margin-top:230px;
+    text-align:start;
 }
